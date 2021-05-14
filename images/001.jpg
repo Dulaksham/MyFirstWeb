@@ -1,0 +1,532 @@
+
+<!doctype html>
+<html lang="en-US">
+    
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400%2C700" rel="stylesheet">
+
+    
+    <script>
+        window.GD = window.GD || {};
+        window.GD.page = window.GD.page || {};
+        window.GD.page.displayAds = window.GD.page.displayAds || {};
+                window.GD = {
+            page: {
+                fbApi: {
+                    appId: 129253937150340
+                },
+                googleAppId: "141714232794-u9pltfkeb9skmomag53kf4dt3p4mgp1a.apps.googleusercontent.com",
+            }
+        };
+        
+        GD.page.displayAds = {
+            adSlots: [
+                {
+                    name: "Native_blog_fluid_en-US",
+                    id: "BlogAdSlot",
+                    width: 0, height: 0,
+                    fluid: true
+                }
+            ],
+            headerBidderEnabled: true,
+            isUserEligible: true,
+        };
+    </script>
+
+    <script>
+
+    function getCookie(cname) {
+        var name = cname + "=";
+        var decodedCookie = decodeURIComponent(document.cookie);
+        var ca = decodedCookie.split(';');
+        for(var i = 0; i <ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }
+
+    let gdId = '';
+    try {
+        gdId = getCookie('gdId') ? getCookie('gdId') : '';
+    } catch (error) {
+        console.log(error);
+    }
+
+    window.gdGlobals = window.gdGlobals ||
+        [{
+            'consumer_blog': {
+                'tags' : 'Glassdoor Guide, Job, Job Search, software engineer, Software Engineer Jobs'
+            },
+            'device': {
+                'handheld': false,
+'tablet': false,
+'code' : 'dk',
+'deviceTypeId': 1
+            },
+            'page': "https://www.glassdoor.com/blog/?post_type=guide&#038;p=46861",
+            'base_url': "https://www.glassdoor.com/blog",
+            'user': {
+                'guid': '' + gdId,
+                'ipAddr': "123.231.111.71",
+                'locale': "en_US",
+                'country': "US"
+            },
+            'locale': "en_US"
+        }];
+
+    window.getGdGlobals = window.getGdGlobals ||
+        function() {
+            return gdGlobals[0];
+        };
+</script>
+    
+	<!-- This site is optimized with the Yoast SEO plugin v15.2.1 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>How to Get a Job as a Software Engineer | Glassdoor</title>
+	<meta name="description" content="A guide on getting a job as a software engineer including must-have skills, salary information, interview tips and career paths for software engineers." />
+	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<link rel="canonical" href="https://www.glassdoor.com/blog/guide/how-to-get-a-job-as-a-software-engineer/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="How to Get a Job as a Software Engineer | Glassdoor" />
+	<meta property="og:description" content="A guide on getting a job as a software engineer including must-have skills, salary information, interview tips and career paths for software engineers." />
+	<meta property="og:url" content="https://www.glassdoor.com/blog/guide/how-to-get-a-job-as-a-software-engineer/" />
+	<meta property="og:site_name" content="Glassdoor Blog" />
+	<meta property="article:modified_time" content="2019-12-30T23:45:52+00:00" />
+	<meta property="og:image" content="https://www.glassdoor.com/blog/app/uploads/sites/2/Software-Architect.jpg" />
+	<meta property="og:image:width" content="848" />
+	<meta property="og:image:height" content="565" />
+	<meta property="fb:app_id" content="119100973447" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Written by">
+	<meta name="twitter:data1" content="Amy Elisa Jackson">
+	<meta name="twitter:label2" content="Est. reading time">
+	<meta name="twitter:data2" content="1 minute">
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//www.glassdoor.com' />
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://www.glassdoor.com/blog/wp-includes/css/dist/block-library/style.min.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='create-block-job-posting-block-css'  href='https://www.glassdoor.com/blog/app/plugins/gd-blocks/job-posting/build/style-index.css?ver=1607735537' type='text/css' media='all' />
+<link rel='stylesheet' id='create-block-econ-author-block-css'  href='https://www.glassdoor.com/blog/app/plugins/gd-blocks/econ-author/build/style-index.css?ver=1607735537' type='text/css' media='all' />
+<link rel='stylesheet' id='sage/css-css'  href='https://www.glassdoor.com/blog/app/themes/gd-consumer-blog-sage/dist/styles/main.css?v=1607734326' type='text/css' media='all' />
+<link rel='stylesheet' id='gd-user-login-css'  href='https://www.glassdoor.com/blog/app/themes/gd-consumer-blog-sage/dist/styles/gd-user-login-all.bundle.css' type='text/css' media='all' />
+<link rel='stylesheet' id='guides-styles-css'  href='https://www.glassdoor.com/blog/app/themes/gd-consumer-blog-sage/dist/gd-guides.bundle.css?v=1607734326' type='text/css' media='all' />
+<link rel='stylesheet' id='gd-blog-signed-out-header-css'  href='https://www.glassdoor.com/blog/app/themes/gd-consumer-blog-sage/dist/./gd-blog-signed-out-header.bundle.css' type='text/css' media='all' />
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js' id='jquery-js'></script>
+<script type='text/javascript' src='https://www.glassdoor.com/static/js/gd-core-top-en-US.js?ver=1607734326' id='gd-core-top-js'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/react/16.9.0/umd/react.production.min.js?ver=16.9.0' id='react-js'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.9.0/umd/react-dom.production.min.js?ver=16.9.0' id='react-dom-js'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.glassdoor.com/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.glassdoor.com/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='shortlink' href='https://www.glassdoor.com/blog/?p=46861' />
+<link rel="alternate" hreflang="en-GB" href="https://www.glassdoor.co.uk/blog/guide/how-to-get-a-job-as-a-software-engineer/" title="en_GB" />
+<link rel="alternate" hreflang="en-US" href="https://www.glassdoor.com/blog/guide/how-to-get-a-job-as-a-software-engineer/" title="en_US" />
+
+<!-- Schema & Structured Data For WP v1.9.58 - -->
+<script type="application/ld+json" class="saswp-schema-markup-output">
+[{"@context":"https:\/\/schema.org","@type":"BreadcrumbList","@id":"https:\/\/www.glassdoor.com\/blog\/guide\/how-to-get-a-job-as-a-software-engineer\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/www.glassdoor.com\/blog","name":"Glassdoor Blog"}},{"@type":"ListItem","position":2,"item":{"@id":"https:\/\/www.glassdoor.com\/blog\/guide\/","name":"Guide"}},{"@type":"ListItem","position":3,"item":{"@id":"https:\/\/www.glassdoor.com\/blog\/career-advice\/","name":"Career Advice"}},{"@type":"ListItem","position":4,"item":{"@id":"https:\/\/www.glassdoor.com\/blog\/jobs\/","name":"Jobs"}},{"@type":"ListItem","position":5,"item":{"@id":"https:\/\/www.glassdoor.com\/blog\/guide\/how-to-get-a-job-as-a-software-engineer\/","name":"How to Get a Job as a Software Engineer | Glassdoor"}}]}]
+</script>
+
+<link rel="icon" href="https://www.glassdoor.com/blog/app/uploads/sites/2/cropped-Favicon-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.glassdoor.com/blog/app/uploads/sites/2/cropped-Favicon-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.glassdoor.com/blog/app/uploads/sites/2/cropped-Favicon-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.glassdoor.com/blog/app/uploads/sites/2/cropped-Favicon-1-270x270.png" />
+</head>
+    <body class="guide-template-default single single-guide postid-46861 how-to-get-a-job-as-a-software-engineer gdGrid flex lang-en en-US">
+
+        <!-- Qualaroo for glassdoor.com -->
+        <script type="text/javascript">
+            var _kiq = _kiq || [];
+            (function(){
+                setTimeout(function(){
+                    var d = document, f = d.getElementsByTagName('script')[0], s = d.createElement('script'); s.type = 'text/javascript';
+                    s.async = true; s.src = '//s3.amazonaws.com/ki.js/67252/fQH.js'; f.parentNode.insertBefore(s, f);
+                }, 1);
+            })();
+        </script>
+
+
+
+        <div id='FlexTestFF'>
+            <div class='testMQ mqHH'></div>
+            <div class='testMQ mqTab'></div>
+            <div class='testMQ mqDT'></div>
+        </div>
+
+        <svg style="display: none;" width="10px" height="16px" viewBox="0 0 10 16" version="1.1"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <defs>
+        <g id="chevron" class="chevron-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <polyline stroke="none" points="1 0 9 8 1 16"></polyline>
+        </g>
+
+        <g id="chevron-green" class="chevron-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <polyline stroke="none" points="1 0 9 8 1 16"></polyline>
+        </g>
+    </defs>
+
+    <g id="slideshow-next-prev" fill="#c2c2c2" fill-rule="evenodd">
+        <g transform="matrix(-1 0 0 1 36 0)">
+            <circle cx="18" cy="18" r="17.5" stroke="#FFF"/>
+        </g>
+        <path stroke="#FFF" stroke-width="2" d="M15.3 10.8l8.1 7.2-8.1 7.2"/>
+    </g>
+
+</svg>
+        <!--[if IE]>
+        <div class="alert alert-warning">
+                    </div>
+        <![endif]-->
+
+        <script>HEADER_DATA = {"employerSignUp":"\/employers\/sign-up\/","employer":"\/employers\/","employerBrandingMenu":"\/employers\/solutions\/employer-branding\/ ","jobAdvertising":"\/employers\/our-products\/employer-branding\/","companyCompare":"\/Compare\/index.htm","employerBlog":"\/employers\/blog\/","contactSales":"\/employers\/contact-sales\/","helpCenter":"http:\/\/help.glassdoor.com\/GlassDoorHome\/en_US","jobSearch":"\/Job\/index.htm","reviews":"\/Reviews\/index.htm","salaries":"\/Salaries\/index.htm","interviews":"\/Interview\/index.htm","salaryCalculator":"\/Salaries\/know-your-worth.htm","showSalaryCalculator":true,"showPostJob":true,"showEmployerBlog":true,"blog":"\/blog\/"}</script>        <header id="TopNav"></header>
+    
+    
+        <div class="wrap" role="document">
+            <div class="content">
+                <main class="main">
+                    
+
+<div class="container gdGrid">
+    <div class="row mt-xl">
+        <div class="col-md-4 pr-md-xl pr-0">
+            <div class="sticky">
+                <div class="d-md-block d-none">
+                    <span class="h2 strong d-block">Guide Overview</span><hr class="mt-std" /><ol class="toc pl-0 pt pb-xl"><li><a href="#How_to_Get_Hired_as_a_Software_Engineer">How to Get Hired as a Software Engineer</a></li><li><a href="#Software_Engineer_Hiring_Process">Software Engineer Hiring Process</a></li><li><a href="#How_Much_Does_a_Software_Engineer_Make?">How Much Does a Software Engineer Make?</a></li><li><a href="#Software_Engineer_Job_Market">Software Engineer Job Market</a></li><li><a href="#Software_Engineer_Job_Interview_Tips">Software Engineer Job Interview Tips</a></li><li><a href="#Related_Careers_to_Software_Engineer">Related Careers to Software Engineer</a></li><li><a href="#Learn_More!">Learn More!</a></li></ol><hr />                </div>
+
+                <div class="pb pl-md-0 pr-md-0 pl-lg pr-lg">
+                                            <span class="categoryTag job-search strong d-inline-block px-xsm mt-xl mb">Job Search</span>
+                    
+                    <a class="goBack d-block" href="https://www.glassdoor.com/blog/guides/">View Guides</a>
+
+                                    </div>
+            </div>
+        </div>
+
+        <div class="col-md-8 p-lg p-md-0">
+                            <article class="post-46861 guide type-guide status-publish has-post-thumbnail hentry guides-job-search" role="article">
+                    <header>
+                        <div class="guide-header">
+                            <div>
+                                <h1 class="strong" itemprop="headline">How to Get a Job as a Software Engineer</h1>
+
+                                                                    <div class="guide-img-wrapper my-xl">
+                                        <img src="https://www.glassdoor.com/blog/app/uploads/sites/2/Software-Architect-750x370.jpg" alt="Software engineer">
+                                    </div>
+                                
+                                <h2 class="strong">Everything You Need to Know About Getting Hired as a Software Engineer</h2>
+                            </div>
+                        </div>
+                    </header>
+
+                    <div class="entry-content guide-content">
+                        <div><p><a href="https://www.glassdoor.com/Job/software-engineer-jobs-SRCH_KO0,17.htm" target="_blank" rel="noopener noreferrer">Software engineers </a>build online reality. Their fluency in programming languages, coupled with their command of engineering principles, enable them to develop everything from network control systems to computer games. Software engineers undertake the exciting work of architecting the world we see online, and their skill set is in high demand.</p>
+<p>According to the <a href="https://www.bls.gov/ooh/computer-and-information-technology/computer-programmers.htm#tab-6" target="_blank" rel="noopener noreferrer">Bureau of Labor Statistics (BLS)</a>: “Employment of software developers is projected to grow 24 percent from 2016 to 2026, much faster than the average for all occupations. Software developers will be needed to respond to an increased demand for computer software.”</p>
+<p>Software engineers enjoy a hybrid role that blends the technical and the creative. Those who work in this role are also <a href="https://www.fullstackacademy.com/blog/software-engineer-vs-software-developer" target="_blank" rel="noopener noreferrer">problem solvers</a> who test and implement solutions, communicating the details of those upgrades to their peers across teams.</p>
+<p>If you’re wondering <a href="https://www.glassdoor.com/Job/software-engineer-jobs-SRCH_KO0,17.htm" target="_blank" rel="noopener noreferrer">how to get a job as a software engineer</a>, read on to learn what it takes to get your foot in the door.</p>
+
+</div>
+
+                        <div>
+                            <a name="How_to_Get_Hired_as_a_Software_Engineer" id="How_to_Get_Hired_as_a_Software_Engineer"></a>
+
+<h2 class="strong margTopXl">
+    How to Get Hired as a Software Engineer</h2>
+
+<div>
+    <p><strong><em>How to Gain Skills, Knowledge, and Experience</em></strong></p>
+<p><strong><em>Degrees needed</em></strong></p>
+<p>If you want to <a href="https://www.glassdoor.com/Job/software-engineer-jobs-SRCH_KO0,17.htm" target="_blank" rel="noopener">find a job as a software engineer</a>, academic work is step one. Software engineers usually need a bachelor’s degree in computer science, software engineering or a related technical field. Some employers may require that candidates hold a master’s degree. Candidates may also be required to have experience working in the industry in which they are seeking employment; for example, candidates pursuing roles in medical or financial industries may have an advantage if they’ve supported these industries in past jobs.</p>
+<p>But keep in mind, there are no accreditations or certifying exams required for software engineers; therefore, less traditional educational pathways have emerged to credential incoming pros.</p>
+<p>Some companies are open to <a href="https://www.glassdoor.com/Job/software-engineer-jobs-SRCH_KO0,17.htm" target="_blank" rel="noopener">hiring software engineers</a> who have an <a href="https://www.learnhowtobecome.org/computer-careers/software-engineering/" target="_blank" rel="noopener">Associate’s Degree</a>, for example. Other pros may score a software engineering role after pursuing a streamlined training route, such as a <a href="https://www.fullstackacademy.com/blog/software-engineer-salary" target="_blank" rel="noopener">technical boot camp</a>. This two to three-month immersion experience prepares students for the intellectual rigors of the job. After their course work, students are prepared to transition into <a href="https://www.learnhowtobecome.org/computer-careers/software-engineering/" target="_blank" rel="noopener">entry-level roles</a>.</p>
+<p><strong><em>Skills for software engineers:</em></strong></p>
+<p>Regardless of how software engineers go about credentialing themselves for their roles, <a href="https://www.fullstackacademy.com/blog/software-engineer-vs-software-developer" target="_blank" rel="noopener">Fullstack Academy</a> reports that the skillset for software engineers includes:</p>
+<ul>
+<li>Experience creating and maintaining IT architectures and databases</li>
+<li>Problem-solving skills</li>
+<li>Pattern design and experience with cloud-based infrastructure</li>
+<li>Embedded development/debugging experience</li>
+<li>Experience on multi-core CPU or SMP</li>
+<li>Knowledge of multiple programming languages including C/C++</li>
+</ul>
+<p>Additionally, those who are a fit for this role need a <a href="https://www.glassdoor.com/blog/guide/develop-soft-skills/" target="_blank" rel="noopener">command of soft skills</a> like good listening, communication skills and the ability to work on a team.</p>
+</div>
+
+    <img src="https://www.glassdoor.com/blog/app/uploads/sites/2/iStock-673873568-e1507070739600-543x320.jpg" alt="How to Get Hired as a Software Engineer" />
+<a name="Software_Engineer_Hiring_Process" id="Software_Engineer_Hiring_Process"></a>
+
+<h2 class="strong margTopXl">
+    Software Engineer Hiring Process</h2>
+
+<div>
+    <p>Professionals with an expertise in software engineering enjoy a wide range of <a href="https://www.glassdoor.com/Job/software-engineer-jobs-SRCH_KO0,17.htm" target="_blank" rel="noopener">professional opportunities</a>. The <a href="https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm#tab-6" target="_blank" rel="noopener">BLS</a> points out that because technological growth is ubiquitous, opportunities for software engineers are diverse and plentiful: “Systems developers are likely to see new opportunities because of an increase in the number of products that use software. For example, more computer systems are being built into consumer electronics and other products, such as cell phones and appliances.”</p>
+<p>Some industries that stand to be especially robust when it comes to job growth for software engineers include manufacturing, healthcare, medical insurance, business, IT services, retail, research and development, government, defense and security.</p>
+<p>Despite the fact that there are plenty of options open to software engineers, job seekers still have to be purposeful and strategic in their searches. Do your homework. Read job posts. See what industries and what types of jobs seem fitting for you.</p>
+<p><a href="https://www.businessinsider.com/new-survey-tech-skills-gap-virtually-nonexistent-2018-12" target="_blank" rel="noopener">Business Insider</a> tech reporter <a href="https://www.businessinsider.com/author/rosalie-chan" target="_blank" rel="noopener">Rosalie Chan</a> advises: “Although there's a high demand for tech jobs, job seekers often aren't marketing the skills that employers are looking  for. . . The trick is to build skills needed for the job, rather than the industry. For example, let's say you want to be a software engineer. To find a job, rather than just learning general programming skills, it would be more helpful to look into the jobs you're interested in and develop the skills that those specific employers want.”</p>
+<p>Be an informed candidate every step of the way. This can help guide your studies, internship opportunities and your job search.</p>
+</div>
+
+    <img src="https://www.glassdoor.com/blog/app/uploads/sites/2/GettyImages-863559100-479x320.jpg" alt="Software Engineer Hiring Process" />
+<a name="How_Much_Does_a_Software_Engineer_Make?" id="How_Much_Does_a_Software_Engineer_Make?"></a>
+
+<h2 class="strong margTopXl">
+    How Much Does a Software Engineer Make?</h2>
+
+<div>
+    <p>As with most jobs, years of experience as well as the region in which they work impacts the pay they earn. <a href="https://www.glassdoor.com/Salaries/software-engineer-salary-SRCH_KO0,17.htm" target="_blank" rel="noopener">Glassdoor salary data</a>, which reflects the input of nearly 200,000 software engineers across the country, reveals that the annual pay range for this profession is between $71,000-$145,000. The national average pay for software engineers, according to Glassdoor’s data, is $103,000.</p>
+</div>
+
+    <img src="https://www.glassdoor.com/blog/app/uploads/sites/2/Software-Engineer-480x320.jpg" alt="How Much Does a Software Engineer Make?" />
+<a name="Software_Engineer_Job_Market" id="Software_Engineer_Job_Market"></a>
+
+<h2 class="strong margTopXl">
+    Software Engineer Job Market</h2>
+
+<div>
+    <p>Steady growth is expected to continue for software engineering roles. The <a href="https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm#tab-6" target="_blank" rel="noopener">BLS</a> reports: “Employment of applications developers is projected to grow 31 percent, and employment of systems developers is projected to grow 11 percent. The main reason for the growth in both applications developers and systems developers is a large increase in the demand for computer software.”</p>
+<p>More good news for software engineers-some of the most <a href="https://www.glassdoor.com/blog/top-companies-hiring-software-engineers/" target="_blank" rel="noopener">celebrated employers</a> are seeking professionals skilled in these roles. <a href="https://www.glassdoor.com/research/2019-bptw-award-trends/" target="_blank" rel="noopener">Glassdoor’s Chief Economist Dr. Andrew Chamberlain</a> points out that among the employers honored on Glassdoor list of <a href="https://www.glassdoor.com/Award/Best-Places-to-Work-LST_KQ0,19.htm" target="_blank" rel="noopener">2019’s Best Places to Work</a>, software engineer is among the most common roles that these employers are seeking. Software engineer also hot on <a href="https://www.glassdoor.com/List/Best-Jobs-in-America-LST_KQ0,20.htm" target="_blank" rel="noopener">Glassdoor’s 50 Best Jobs in America for 2019</a>; the role earns a spot in the coveted top ten.</p>
+<p>If you’ve got the skills to be a software engineer, your prospects look great. Glassdoor posts nearly <a href="https://www.glassdoor.com/Job/software-engineer-jobs-SRCH_KO0,17.htm" target="_blank" rel="noopener">140,000 open jobs</a> across the country for software engineers.</p>
+</div>
+
+    <img src="https://www.glassdoor.com/blog/app/uploads/sites/2/iStock-667849954-480x320.jpg" alt="Software Engineer Job Market" />
+<a name="Software_Engineer_Job_Interview_Tips" id="Software_Engineer_Job_Interview_Tips"></a>
+
+<h2 class="strong margTopXl">
+    Software Engineer Job Interview Tips</h2>
+
+<div>
+    <p>Once you earn the opportunity to interview for a role as a software engineer, yours will be a <a href="https://www.glassdoor.com/blog/technical-interview-humanize/" target="_blank" rel="noopener">technical interview</a>. The process generally starts with a <a href="https://www.glassdoor.com/blog/phone-interview-cheat-sheet/" target="_blank" rel="noopener">phone interview</a>. Often, this will be conducted by a recruiter or HR professional. The first phone interview tends to be somewhat general, and is often followed up by a more technical conversation (often again via phone) with the hiring manager. This is then followed by an in-house interview where you’ll get the chance to meet the team, chat and demonstrate your skills.</p>
+<p>Often, software engineers are asked to <a href="https://www.glassdoor.com/blog/technical-interview-tips/" target="_blank" rel="noopener">demonstrate their coding skills</a> and to take their interviewers through some problem-solving exercises. You want to demonstrate that you have solid technical skills, that you’re a savvy problem-solver and that you’re a clear, concise communicator.</p>
+<p>Consider these <a href="https://www.glassdoor.com/Interview/software-engineer-interview-questions-SRCH_KO0,17.htm" target="_blank" rel="noopener">software engineering interview questions</a> that were posed to Glassdoor users. Practice these and other common <a href="https://www.glassdoor.com/blog/common-interview-questions/" target="_blank" rel="noopener">interview questions</a> in preparation for your job interview.</p>
+<ul>
+<li>Suppose you are writing a test script to test a function running in a process overnight. How do you make sure that if the process is halted, your test function will be able to detect that?</li>
+<li>Write some pseudo code to raise a number to a power.</li>
+<li>Given an array of numbers, replace each number with the product of all the numbers in the array except the number itself *without* using division.</li>
+<li>Give me an example of a time you made a mistake at work, how you repaired it and how you communicated this to your supervisor.</li>
+<li>Give me an example of a time you succeeded on a team.</li>
+</ul>
+</div>
+
+    <img src="https://www.glassdoor.com/blog/app/uploads/sites/2/iStock_84819163_LARGE-480x320.jpg" alt="Software Engineer Job Interview Tips" />
+<a name="Related_Careers_to_Software_Engineer" id="Related_Careers_to_Software_Engineer"></a>
+
+<h2 class="strong margTopXl">
+    Related Careers to Software Engineer</h2>
+
+<div>
+    <p><a href="https://www.glassdoor.com/Job/software-developer-jobs-SRCH_KO0,18.htm" target="_blank" rel="noopener"><strong>Software developer </strong></a></p>
+<p>Average base pay: <a href="https://www.glassdoor.com/Salaries/software-developer-salary-SRCH_KO0,18.htm" target="_blank" rel="noopener">$80,000</a></p>
+<p>Degrees required: Bachelor’s degree</p>
+<p><a href="https://www.glassdoor.com/Job/computer-hardware-engineer-jobs-SRCH_KO0,26.htm" target="_blank" rel="noopener"><strong>Computer hardware engineer </strong></a></p>
+<p>Average base pay: <a href="https://www.glassdoor.com/Salaries/computer-hardware-engineer-salary-SRCH_KO0,26.htm" target="_blank" rel="noopener">$104,000</a></p>
+<p>Degrees required: Bachelor’s degree</p>
+<p><a href="https://www.glassdoor.com/Job/computer-network-architects-jobs-SRCH_KE0,27.htm" target="_blank" rel="noopener"><strong>Computer network architects </strong></a></p>
+<p>Average base pay: <a href="https://www.glassdoor.com/Salaries/computer-network-architects-salary-SRCH_KO0,27.htm" target="_blank" rel="noopener">$87,000</a></p>
+<p>Degrees required: Bachelor’s degree</p>
+</div>
+
+    <img src="https://www.glassdoor.com/blog/app/uploads/sites/2/Software-Engineer-Intern-480x320.jpg" alt="Related Careers to Software Engineer" />
+<a name="Learn_More!" id="Learn_More!"></a>
+
+<h2 class="strong margTopXl">
+    Learn More!</h2>
+
+<div>
+    <p>Software Engineer is one of the most in-demand jobs. So you'll need to do your research and hone your skills to get hired at a top company. Here are additional resources to help you find the job that fits your life:</p>
+<p><a href="https://www.glassdoor.com/blog/top-companies-hiring-software-engineers/" target="_blank" rel="noopener">Top Companies Hiring Software Engineers</a></p>
+<p><a href="https://www.glassdoor.com/blog/entry-level-software-engineering-job-agilent/" target="_blank" rel="noopener">How to Score an Entry-Level Software Engineering Job</a></p>
+<p><a href="https://www.glassdoor.com/blog/10-interview-questions-software-engineers/" target="_blank" rel="noopener">10 Interview Questions for Software Engineers</a></p>
+<p><a href="https://www.glassdoor.com/blog/guide/how-to-build-your-own-career-path-within-an-organization/" target="_blank" rel="noopener">How to Build Your Own Career Path Within an Organization</a></p>
+<p><a href="https://www.glassdoor.com/blog/best-tech-companies-2019/" target="_blank" rel="noopener">The Best Tech Companies to Work for in 2019</a></p>
+<p><a href="https://www.glassdoor.com/blog/12-great-jobs-for-computer-science-majors/" target="_blank" rel="noopener">12 Great Jobs for Computer Science Majors</a></p>
+</div>
+
+                        </div>
+                    </div>
+                </article>
+            
+
+                    </div>
+    </div>
+</div>
+
+
+<div id="TriggerGate"></div>
+
+<div id="SubscribeGate" class="subscribe-gate padTop padBot cf">
+    <div class="subscribe-gate-form"><div class="col span-1-1 cf">
+	<div class="widget text-5 widget_text span-1-1 cf"><h2 class="noMargTop">Subscribe to our Blog</h2>			<div class="textwidget">		
+		<div class="subscribe">
+			<form
+				action="https://feedburner.google.com/fb/a/mailverify"
+				method="post"
+				target="popupwindow"
+				onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=glassdoor', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true;">
+				<input class="std loc med gradient" type="text"  name="email" placeholder="Email Address"/>
+				<input type="hidden" value="glassdoor" name="uri" />
+				<input type="hidden" name="loc" value="en_US"/>
+				<button class="gd-btn gd-btn-submit gd-btn-1" href="#" onclick="javascript:$(this).parentsUntil('subscribe').find('form').trigger('onsubmit');" type="submit" name="Subscribe">
+					<span>Subscribe</span>
+				</button>
+			</form>
+		</div></div>
+		</div></div></div>
+    <div class="subscribe-gate-post-link isActive"><div class='tbl next-article'>
+                <span class='middle'>
+                    <span class='next-prev-text cell'>Next Article:&nbsp;</span>
+                    <a class='cell next-prev-link' href='https://www.glassdoor.com/blog/guide/how-to-get-a-job-as-a-financial-analyst/'>How to Get a Job as a Financial Analyst</a>
+                </span>
+          </div></div>
+</div>
+                </main>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+    <div class="container gdGrid">
+                    <p class="employer-cta">Are you an employer? Check out our <a href="https://www.glassdoor.com/employers/blog/" target="_blank">Talent Solutions Blog</a>.</p>
+        
+
+        <div class="row p-lg-0 p-xl">
+            <div class="widget text-2 widget_text col-md-4"><h3 class="h2 strong">About The Blog</h3>			<div class="textwidget"><p>Thanks for finding us!  We cover everything from career advice to the latest company headlines.</p>
+
+<p>And if you’re looking for the latest in employer solutions and advice, we recommend our <a href="https://www.glassdoor.com/employers/blog/">Talent Solutions Blog</a>. </p></div>
+		</div><div class="widget text-3 widget_text col-md-4"><h3 class="h2 strong">Free Employer Account</h3>			<div class="textwidget"><p><a href="https://www.glassdoor.com/employers/sign-up/#/?src=B2C_site">It only takes a second</a> &#8211; see who’s viewing your profile and monitor your reputation.</p>
+<p>&nbsp;</p>
+<p><a class="gd-btn gd-btn-4 fill" href="https://www.glassdoor.com/employers/sign-up/#/?src=B2C_site">Get Started</a></p>
+</div>
+		</div><div class="widget text-4 widget_text col-md-4"><h3 class="h2 strong">More From Glassdoor</h3>			<div class="textwidget"><ul>
+	<li><a href="https://www.glassdoor.com/Best-Places-to-Work-LST_KQ0,19.htm">Best Places to Work</a></li>
+	<li><a href="https://www.glassdoor.com/Award/Top-CEOs-LST_KQ0,8.htm"> Top CEOs</a></li>
+	<li><a href="https://www.glassdoor.com/press/">Glassdoor Press Center</a></li>
+	<li><a href="https://www.glassdoor.com/research/" target="_BLANK" rel="noopener">Glassdoor Economic Research</a></li>
+</ul></div>
+		</div>        </div>
+
+        <div class="row mb-lg-xl">
+            <div class="col-md-4 offset-md-4 d-flex align-items-center justify-content-center">
+                <div class="footer-social">
+                    <ul class="connect-icons">
+    <li>
+        <a class="social-icon social-glassdoor" href="https://www.glassdoor.com/glassdoor">
+            <span class="offScreen">Glassdoor</span>
+        </a>
+    </li>
+    <li>
+        <a class="social-icon social-twitter" href="https://twitter.com/glassdoor">
+            <span class="offScreen">Twitter</span>
+        </a>
+    </li>
+    <li>
+        <a class="social-icon social-linkedin" href="https://www.linkedin.com/company/glassdoor">
+            <span class="offScreen">LinkedIn</span>
+        </a>
+    </li>
+    <li>
+        <a class="social-icon social-fb" href="https://www.facebook.com/Glassdoor">
+            <span class="offScreen">Facebook</span>
+        </a>
+    </li>
+    <li>
+        <a class="social-icon social-youtube" href="https://www.youtube.com/user/GlassdoorInc">
+            <span class="offScreen">Youtube</span>
+        </a>
+    </li>
+
+    <li>
+        <a class="social-icon social-instagram" href="https://www.instagram.com/glassdoor/">
+            <span class="offScreen">Instagram</span>
+        </a>
+    </li>
+
+    <li>
+        <a class="social-icon social-rss" href="http://feeds2.feedburner.com/glassdoor/">
+            <span class="offScreen">RSS</span>
+        </a>
+    </li>
+</ul>                </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-center">
+                <div class="search-form">
+    <form role="search" method="get" class="search-form js-search-form" action="/blog/search/">
+        <label class="offScreen" for="s">
+            Search        </label>
+        <input type="text"
+               class="search-input js-search-input std lg"
+               value=""
+               name="s"
+               placeholder="Search Blog" />
+        <button type="submit" class="srch-btn gd-btn gd-btn-1 gd-btn-lg" value="Search" />
+        Search        </button>
+    </form>
+</div>            </div>
+        </div>
+
+        <div class="row p-lg-0 p-xl">
+            <footer id="colophon" class="site-footer mx-auto flex-column d-flex align-items-center" role="contentinfo">
+                
+                <p class="mb-0">
+                    Copyright &copy; 2008–2021, Glassdoor. Glassdoor &reg; is a registered trademark of Glassdoor, Inc.                </p>
+                <p class="mt-0">
+                    <a href="https://www.glassdoor.com/about/terms.htm" target="_blank">Terms of Use</a> | <a href="https://www.glassdoor.com/about/privacy.htm" target="_blank">Privacy &amp; Cookies</a>
+                </p>
+            </footer><!-- #colophon -->
+        </div>
+    </div>
+</div>
+
+
+<script type='text/javascript' src='https://www.glassdoor.com/blog/app/plugins/GDpopularTags/dist/js/gd-popular-tags.min.js?ver=1.0.0' id='GDpopularTags-scripts-js'></script>
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js' id='jquery-ui-core-js'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/prop-types/15.6.0/prop-types.min.js' id='react-prop-types-js'></script>
+<script type='text/javascript' id='main-js-extra'>
+/* <![CDATA[ */
+var WP_ENV = "production";
+/* ]]> */
+</script>
+<script type='text/javascript' defer="defer" src='https://www.glassdoor.com/blog/app/themes/gd-consumer-blog-sage/dist/scripts/main.js?v=1607734326' id='main-js'></script>
+<script type='text/javascript' src='https://www.glassdoor.com/blog/app/themes/gd-consumer-blog-sage/dist/scripts/gd-display-ads.bundle.js?v=1607734326' id='gd-display-ad-js'></script>
+<script type='text/javascript' defer="defer" src='https://www.glassdoor.com/blog/app/themes/gd-consumer-blog-sage/dist/scripts/gd-user-login.js?v=1607734326' id='gd-user-login-js'></script>
+<script type='text/javascript' defer="defer" src='https://www.glassdoor.com/blog/app/themes/gd-consumer-blog-sage/dist/scripts/gd-single-post.js?v=1607734326' id='single-post-js'></script>
+<script type='text/javascript' src='https://www.glassdoor.com/blog/app/themes/gd-consumer-blog-sage/dist/gd-guides.bundle.js?v=1607734326' id='guides-js'></script>
+<script type='text/javascript' defer="defer" src='https://www.glassdoor.com/blog/app/themes/gd-consumer-blog-sage/dist/./gd-blog-signed-out-header.bundle.js?v=1607734326' id='gd-blog-signed-out-header-js'></script>
+<script type='text/javascript' src='https://www.glassdoor.com/blog/wp-includes/js/wp-embed.min.js?ver=5.6' id='wp-embed-js'></script>
+
+	<!-- Google Tag Manager -->
+	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PST2JZ"
+					  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push(
+			{'gtm.start': new Date().getTime(),event:'gtm.js'}
+		);var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','gdGlobals','GTM-PST2JZ');</script>
+	<!-- End Google Tag Manager -->
+    </body>
+</html>
+<!--
+Performance optimized by Redis Object Cache. Learn more: https://wprediscache.com
+
+Retrieved 1771 objects (1 MB) from Redis using PhpRedis (v5.3.2).
+-->
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+
+Served from: blog-content.glassdoor.com @ 2021-01-05 00:00:29 by W3 Total Cache
+-->
